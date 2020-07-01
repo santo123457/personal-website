@@ -5,30 +5,38 @@
 }
 
 .part-1{
-    width: 1300px;
-    background-image: url ("img/header-bg.png");
+    height: 500px;
+    background-image: url("img/header-bg.png");
     background-repeat: no-repeat;
     background-position: left; 
+    background-size: cover;
+    background-position: center;
 }
 .part-2{
-    width: 1300px;
+    height: 500px;
    background-image: url("img/biography-bg.png");
     background-repeat: no-repeat;
     background-position: left;
+    background-size: cover;
+    background-position: center;
     
 }
 .part-3{
-    width:1300px;
-    background-image: url ("img/latest-work-bg.png");
+    height: 500px;
+    background-image: url("img/latest-work-bg.png");
     background-repeat: no-repeat;
     background-position: left;
+    background-size: cover;
+    background-position: center;
     
 }
 .part-4{
-    width:1300px;
-    background-image: url ("img/footer-bg.png");
+    height: 500px;
+    background-image: url("img/footer-bg.png");
     background-repeat: no-repeat;
     background-position: left;
+    background-size: cover;
+    background-position: center;
     
 }
 .half-side{
@@ -104,4 +112,8 @@ h6{
     color: dimgray;
     margin: 20px 0 50px 0;
     
+}
+button a{
+    text-decoration: none;
+    color: thistle;
 }
